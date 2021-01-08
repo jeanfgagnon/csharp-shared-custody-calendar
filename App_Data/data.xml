@@ -1,0 +1,178 @@
+<?xml version="1.0" standalone="yes"?>
+<GPCal>
+  <xs:schema id="GPCal" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="GPCal" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="cals">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="id_cal" type="xs:int" minOccurs="0" />
+                <xs:element name="calyear" type="xs:int" />
+                <xs:element name="date_mod" type="xs:dateTime" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="notes">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="id_note" type="xs:int" minOccurs="0" />
+                <xs:element name="id_cal" type="xs:int" minOccurs="0" />
+                <xs:element name="noligne" type="xs:int" minOccurs="0" />
+                <xs:element name="note" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="monthlynotes">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="id_monthlynote" type="xs:int" minOccurs="0" />
+                <xs:element name="id_cal" type="xs:int" minOccurs="0" />
+                <xs:element name="calmonth" type="xs:int" minOccurs="0" />
+                <xs:element name="note_1" type="xs:string" minOccurs="0" />
+                <xs:element name="note_2" type="xs:string" minOccurs="0" />
+                <xs:element name="note_3" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="dailynotes">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="id_dailynote" type="xs:int" minOccurs="0" />
+                <xs:element name="id_cal" type="xs:int" minOccurs="0" />
+                <xs:element name="notedate" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="note" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <cals>
+    <id_cal>1</id_cal>
+    <calyear>2021</calyear>
+    <date_mod>2021-01-08T15:06:43.4966335-05:00</date_mod>
+  </cals>
+  <notes>
+    <id_note>1</id_note>
+    <id_cal>1</id_cal>
+    <noligne>2</noligne>
+    <note>Par JF Gagnon</note>
+  </notes>
+  <notes>
+    <id_note>2</id_note>
+    <id_cal>1</id_cal>
+    <noligne>3</noligne>
+    <note>Écrit en 2005 après mon divorce et est encore utile en 2021</note>
+  </notes>
+  <monthlynotes>
+    <id_monthlynote>1</id_monthlynote>
+    <id_cal>1</id_cal>
+    <calmonth>1</calmonth>
+    <note_1>Entrez une note ici</note_1>
+    <note_2 />
+    <note_3 />
+  </monthlynotes>
+  <monthlynotes>
+    <id_monthlynote>2</id_monthlynote>
+    <id_cal>1</id_cal>
+    <calmonth>2</calmonth>
+    <note_1 />
+    <note_2 />
+    <note_3 />
+  </monthlynotes>
+  <monthlynotes>
+    <id_monthlynote>3</id_monthlynote>
+    <id_cal>1</id_cal>
+    <calmonth>3</calmonth>
+    <note_1 />
+    <note_2 />
+    <note_3 />
+  </monthlynotes>
+  <monthlynotes>
+    <id_monthlynote>4</id_monthlynote>
+    <id_cal>1</id_cal>
+    <calmonth>4</calmonth>
+    <note_1 />
+    <note_2 />
+    <note_3 />
+  </monthlynotes>
+  <monthlynotes>
+    <id_monthlynote>5</id_monthlynote>
+    <id_cal>1</id_cal>
+    <calmonth>5</calmonth>
+    <note_1 />
+    <note_2 />
+    <note_3 />
+  </monthlynotes>
+  <monthlynotes>
+    <id_monthlynote>6</id_monthlynote>
+    <id_cal>1</id_cal>
+    <calmonth>6</calmonth>
+    <note_1 />
+    <note_2 />
+    <note_3 />
+  </monthlynotes>
+  <monthlynotes>
+    <id_monthlynote>7</id_monthlynote>
+    <id_cal>1</id_cal>
+    <calmonth>7</calmonth>
+    <note_1 />
+    <note_2 />
+    <note_3 />
+  </monthlynotes>
+  <monthlynotes>
+    <id_monthlynote>8</id_monthlynote>
+    <id_cal>1</id_cal>
+    <calmonth>8</calmonth>
+    <note_1 />
+    <note_2 />
+    <note_3 />
+  </monthlynotes>
+  <monthlynotes>
+    <id_monthlynote>9</id_monthlynote>
+    <id_cal>1</id_cal>
+    <calmonth>9</calmonth>
+    <note_1 />
+    <note_2 />
+    <note_3 />
+  </monthlynotes>
+  <monthlynotes>
+    <id_monthlynote>10</id_monthlynote>
+    <id_cal>1</id_cal>
+    <calmonth>10</calmonth>
+    <note_1 />
+    <note_2 />
+    <note_3 />
+  </monthlynotes>
+  <monthlynotes>
+    <id_monthlynote>11</id_monthlynote>
+    <id_cal>1</id_cal>
+    <calmonth>11</calmonth>
+    <note_1 />
+    <note_2 />
+    <note_3 />
+  </monthlynotes>
+  <monthlynotes>
+    <id_monthlynote>12</id_monthlynote>
+    <id_cal>1</id_cal>
+    <calmonth>12</calmonth>
+    <note_1 />
+    <note_2 />
+    <note_3 />
+  </monthlynotes>
+  <dailynotes>
+    <id_dailynote>1</id_dailynote>
+    <id_cal>0</id_cal>
+    <notedate>2021-01-08T00:00:00-05:00</notedate>
+    <note>On github</note>
+  </dailynotes>
+  <dailynotes>
+    <id_dailynote>2</id_dailynote>
+    <id_cal>1</id_cal>
+    <notedate>2021-01-09T00:00:00-05:00</notedate>
+    <note>Sur github
+</note>
+  </dailynotes>
+</GPCal>
